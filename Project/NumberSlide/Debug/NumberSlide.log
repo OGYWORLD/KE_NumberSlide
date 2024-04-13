@@ -1,0 +1,5 @@
+﻿  Print.cpp
+C:\Users\admin\source\repos\NumberSlide\NumberSlide\KeyboardInput.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\admin\source\repos\NumberSlide\NumberSlide\Print.cpp(42,9): warning C4129: ' ': unrecognized character escape sequence
+C:\Users\admin\source\repos\NumberSlide\NumberSlide\Print.cpp(30): warning C4715: 'Print::PrintIntroScene': not all control paths return a value
+  NumberSlide.vcxproj -> C:\Users\admin\source\repos\NumberSlide\Debug\NumberSlide.exe

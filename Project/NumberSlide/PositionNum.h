@@ -1,0 +1,32 @@
+#pragma once
+
+// Intro Scene
+#define INTRO_LOGO_X	30
+#define INTRO_LOGO_Y	7
+
+#define TWINKLE_RANGE	15
+
+#define TWINKLE_QUADRANT_1_X	0
+#define TWINKLE_QUADRANT_1_Y	0
+
+#define TWINKLE_QUADRANT_2_X	100
+#define TWINKLE_QUADRANT_2_Y	0
+
+#define TWINKLE_QUADRANT_3_X	0
+#define TWINKLE_QUADRANT_3_Y	15
+
+#define TWINKLE_QUADRANT_4_X	100
+#define TWINKLE_QUADRANT_4_Y	15
+
+#define INTRO_TEXTBOX_X		42
+#define INTRO_TEXTBOX_Y		20
+
+#define INTRO_SELECT_X		44
+#define INTRO_SELECT_Y		21
+
+// Game Scene
+#define GAME_CUR_TRIAL_X	15
+#define GAME_CUR_TRIAL_Y	0
+
+#define GAME_TEXTBOX_X		15
+#define GAME_TEXTBOX_Y		25
