@@ -1,19 +1,5 @@
-﻿  GamePlay.cpp
-C:\Users\admin\Desktop\[경일] 넘버슬라이드\Project\NumberSlide\KeyboardInput.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  GoToXY.cpp
-C:\Users\admin\Desktop\[경일] 넘버슬라이드\Project\NumberSlide\GoToXY.cpp(13,16): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-C:\Users\admin\Desktop\[경일] 넘버슬라이드\Project\NumberSlide\GoToXY.cpp(13,19): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-  KeyboardInput.cpp
-C:\Users\admin\Desktop\[경일] 넘버슬라이드\Project\NumberSlide\KeyboardInput.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  Main.cpp
-C:\Users\admin\Desktop\[경일] 넘버슬라이드\Project\NumberSlide\KeyboardInput.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  OriginalPuzzle.cpp
-  Player.cpp
-  Print.cpp
+﻿  Print.cpp
 C:\Users\admin\Desktop\[경일] 넘버슬라이드\Project\NumberSlide\KeyboardInput.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\admin\Desktop\[경일] 넘버슬라이드\Project\NumberSlide\Print.cpp(42,9): warning C4129: ' ': unrecognized character escape sequence
-  Puzzle.cpp
-C:\Users\admin\Desktop\[경일] 넘버슬라이드\Project\NumberSlide\Puzzle.cpp(5,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Generating Code...
 C:\Users\admin\Desktop\[경일] 넘버슬라이드\Project\NumberSlide\Print.cpp(30): warning C4715: 'Print::PrintIntroScene': not all control paths return a value
   NumberSlide.vcxproj -> C:\Users\admin\Desktop\[경일] 넘버슬라이드\Project\x64\Debug\NumberSlide.exe

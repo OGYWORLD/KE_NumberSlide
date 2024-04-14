@@ -167,7 +167,9 @@ void Print::PrintPuzzle(int col, int row, int color)
 
 			if (NumberPuzzle[i][j] == VNum * HNum)
 			{
+				SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 6);
 				printf("★");
+				SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 			}
 			else
 			{
@@ -309,8 +311,10 @@ void Print::PrintChangeNum(int n1, int n2, int ChangeDirection)
 			to->GoToXYPosition(DisplayPosition[n2].first, DisplayPosition[n2].second);
 			printf("  ");
 			to->GoToXYPosition(DisplayPosition[n2].first, DisplayPosition[n2].second + i);
+			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 6);
 			printf("★");
 			DisplayPosition[n2].second = DisplayPosition[n2].second + i;
+			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 			
 			Sleep(500);
 		}
@@ -328,8 +332,10 @@ void Print::PrintChangeNum(int n1, int n2, int ChangeDirection)
 			to->GoToXYPosition(DisplayPosition[n2].first, DisplayPosition[n2].second);
 			printf("  ");
 			to->GoToXYPosition(DisplayPosition[n2].first, DisplayPosition[n2].second - i);
+			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 6);
 			printf("★");
 			DisplayPosition[n2].second = DisplayPosition[n2].second - i;
+			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 
 			Sleep(500);
 		}
@@ -341,7 +347,9 @@ void Print::PrintChangeNum(int n1, int n2, int ChangeDirection)
 			to->GoToXYPosition(DisplayPosition[n2].first, DisplayPosition[n2].second);
 			printf(" ");
 			to->GoToXYPosition(DisplayPosition[n2].first + i, DisplayPosition[n2].second);
+			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 6);
 			printf("★");
+			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 
 			DisplayPosition[n2].first = DisplayPosition[n2].first + i;
 			to->GoToXYPosition(DisplayPosition[n1].first, DisplayPosition[n1].second);
@@ -366,7 +374,9 @@ void Print::PrintChangeNum(int n1, int n2, int ChangeDirection)
 			to->GoToXYPosition(DisplayPosition[n2].first, DisplayPosition[n2].second);
 			printf(" ");
 			to->GoToXYPosition(DisplayPosition[n2].first - i, DisplayPosition[n2].second);
+			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 6);
 			printf("★");
+			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 			DisplayPosition[n2].first = DisplayPosition[n2].first - i;
 
 			Sleep(200);
